@@ -19,3 +19,10 @@ services:
       options:
         max-size: "10m"   # Rotate when each log file reaches 10 MB
         max-file: "3"     # Keep up to 3 rotated files (~30 MB total)
+    networks:
+      br0.40:
+        ipv4_address: 10.13.40.176
+
+networks:
+  br0.40:
+    external: true
