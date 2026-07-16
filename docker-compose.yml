@@ -13,7 +13,7 @@ services:
     volumes:
       - /unraid/appdata/cc2-gcode-capture-proxy/gcode-archive:/data/gcode
     env_file:
-      - .env
+      - .env.dockhand
     logging:
       driver: json-file
       options:
