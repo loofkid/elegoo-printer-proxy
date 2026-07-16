@@ -11,7 +11,7 @@ services:
       - "${HOST_CAMERA_PORT:-8080}:${CAMERA_PORT:-8080}"
       - "${HOST_MQTT_WS_PORT:-9001}:${MQTT_WS_PORT:-9001}"
     volumes:
-      - ./gcode-archive:/data/gcode
+      - /unraid/appdata/cc2-gcode-capture-proxy/gcode-archive:/data/gcode
     env_file:
       - .env
     logging:
