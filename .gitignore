@@ -177,7 +177,7 @@ cython_debug/
 gcode-archive/
 
 # Docker Compose (contains deployment-specific IPs and network config)
-docker-compose.yml
+# docker-compose.yml
 
 # Cursor  
 #  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to 
